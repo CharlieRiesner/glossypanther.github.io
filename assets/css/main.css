@@ -304,7 +304,7 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #ff7496;
+			border-color: #7873FF;
 		}
 
 	.select-wrapper {
@@ -405,13 +405,13 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			color: #ff7496;
+			color: #7873FF;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #ff7496;
+			border-color: #7873FF;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -547,7 +547,7 @@
 					}
 
 					ul.icons li a:hover:before {
-						text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #7873FF;
+						text-shadow: 1.25px 0px 0px #7873FF, -1.25px 0px 0px #7873FF, 0px 1.25px 0px #7873FF, 0px -1.25px 0px #7873FF;
 					}
 
 					ul.icons li a:before {
@@ -638,7 +638,7 @@
 		button:hover,
 		.button:hover {
 			border-color: #7873FF;
-			color: #ff7496 !important;
+			color: #7873FF !important;
 		}
 
 		input[type="submit"].icon,

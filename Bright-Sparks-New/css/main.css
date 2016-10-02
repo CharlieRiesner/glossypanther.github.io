@@ -40,11 +40,8 @@ h4 {
 
 #footer {
   background-color: #1f567d;
-  clear: both;
   position: relative;
   margin: 0px;
-  height: 100px;
-  margin-top: -100px;
   padding:  10px;
   text-align: center;
   font-size: 50px;

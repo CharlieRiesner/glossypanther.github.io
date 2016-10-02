@@ -38,7 +38,7 @@ h4 {
   background-color: #1f567d;
 }
 
-#footer {
+footer {
   background-color: #1f567d;
   position: relative;
   margin: 0px;
@@ -47,11 +47,11 @@ h4 {
   font-size: 50px;
 }
 
-#footer a {
+footer a {
   color: #ffffff;
 }
 
-#footer a:hover {
+footer a:hover {
   color: #a4a4a4;
 }
 

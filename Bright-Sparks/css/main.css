@@ -1,0 +1,110 @@
+html, body {
+  height: 100%;
+}
+
+#home-image {
+  height: 100%;
+  background: linear-gradient( rgba(185, 179, 176, 0.2), rgba(185, 179, 176, 0.2) ), url(../images/home.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+#home-image h1 {
+  font-family: Lora, Baskerville, Georgia, Times, serif;
+  color: #FFFFFF;
+  font-style: italic;
+  font-size: 65px;
+}
+
+.block {
+  background-color: #5e5853;
+  position: relative;
+  margin: 0px;
+  padding:  50px;
+  text-align: center;
+}
+
+.block h2 {
+  font-family: Lora, Baskerville, Georgia, Times, serif;
+  color: #FFFFFF;
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+.block p {
+  font-family: Lora, Baskerville, Georgia, Times, serif;
+  color: #b9b3b0;
+  font-size: 25px;
+}
+
+#about-image {
+  height: 50%;
+  background: url(../images/about.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+#about-image h1 {
+  font-family: Lora, Baskerville, Georgia, Times, serif;
+  color: #FFFFFF;
+  font-style: italic;
+  font-size: 90px;
+}
+
+#contact-image {
+  height: 75%;
+  background: url(../images/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+#contact-image h1 {
+  font-family: Lora, Baskerville, Georgia, Times, serif;
+  color: #FFFFFF;
+  font-style: italic;
+  font-size: 90px;
+}
+
+.navbar {
+  font-family: Lora, Baskerville, Georgia, Times, serif;
+}
+
+.navbar-default {
+  background-color: #1e1c1b;
+  border: 0;
+}
+
+#footer {
+  background-color: #1e1c1b;
+  position: relative;
+  margin: 0px;
+  padding:  10px;
+  text-align: center;
+  font-size: 50px;
+}
+
+#footer a {
+  color: #5e5853;
+}
+
+#footer a:hover {
+  color: #ffffff;
+}

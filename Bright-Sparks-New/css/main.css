@@ -38,20 +38,22 @@ h4 {
   background-color: #1f567d;
 }
 
-footer {
+#footer {
   background-color: #1f567d;
+  clear: both;
   position: relative;
+  bottom: 0;
   margin: 0px;
   padding:  10px;
   text-align: center;
   font-size: 50px;
 }
 
-footer a {
+#footer a {
   color: #ffffff;
 }
 
-footer a:hover {
+#footer a:hover {
   color: #a4a4a4;
 }
 

@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+html, body {
+	height: 100%;
+	background-color: #896;
+	/*background-image: linear-gradient(to bottom, rgba(136, 51, 102, 0.7), rgba(136, 153, 102, 0.7)), url("../images/bg.jpg");
+	background-image: -moz-linear-gradient(top, rgba(136, 51, 102, 0.7), rgba(136, 153, 102, 0.7)), url("../images/bg.jpg");
+    background-image: -o-linear-gradient(top, rgba(136, 51, 102, 0.7), rgba(136, 153, 102, 0.7)), url("../images/bg.jpg");
+    background-image: -ms-linear-gradient(top, rgba(136, 51, 102, 0.7), rgba(136, 153, 102, 0.7)), url("../images/bg.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(136, 51, 102, 0.7)), to(rgba(136, 153, 102, 0.7))), url("../images/bg.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(136, 51, 102, 0.7), rgba(136, 153, 102, 0.7)), url("../images/bg.jpg");*/
+}
+
+body {
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.typewriter h1 {
+	font-family: 'Bangers', cursive;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: .15em solid orange; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: .15em; /* Adjust as needed */
+	animation: 
+		typing 1.2s steps(13, end),
+		blink-caret .75s step-end infinite;
+}
+
+.avatar {
+	padding: 1em;
+    border-radius: 100%;
+}
+
+.icons {
+	opacity: 0;
+	animation: appear ease-in 1;
+	animation-fill-mode: forwards;
+	animation-duration: 2s;
+	animation-delay: 1.5s;
+}
+
+.icons ul {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+}
+
+.icons ul li {
+	display: inline-block;
+	padding: 0.675em 0.5em;
+}
+
+.icons ul li a {
+	text-decoration: none;
+	position: relative;
+	display: block;
+	width: 3.75em;
+	height: 3.75em;
+	border-radius: 100%;
+	border: solid 1px #c8cccf;
+	line-height: 3.75em;
+	overflow: hidden;
+	text-align: center;
+	text-indent: 3.75em;
+	white-space: nowrap;
+}
+
+.icons ul li a:before {
+	color: #FFFFFF;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: inherit;
+	height: inherit;
+	font-size: 2.5em;
+	line-height: inherit;
+	text-align: center;
+	text-indent: 0;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: orange; }
+}
+
+@keyframes appear {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}

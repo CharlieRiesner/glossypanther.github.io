@@ -1,0 +1,10 @@
+Package: com.glossypanther.veexillumextension
+Name: Veexillum - Extension
+Version: 1.0
+Architecture: iphoneos-arm
+Description: This is an extension to the theme Veexillum!
+Depiction: http://repo.winneonsword.net/packages/veexillum.html
+Homepage: http://glossypanther.com
+Maintainer: GlossyPanther <admin@glossypanther.com>
+Author: GlossyPanther <admin@glossypanther.com>
+Section: Themes

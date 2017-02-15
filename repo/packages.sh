@@ -1,1 +1,1 @@
-dpkg-deb -Zgzip -b "Veexillum - Extension"
+dpkg-deb -Zgzip -b Package

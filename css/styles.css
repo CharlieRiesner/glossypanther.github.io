@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-	color: #fff;
+	color: white;
 	text-align: center;
 	text-shadow: 0 1px 3px rgba(0,0,0,0.5);
 	display: flex;
@@ -40,7 +40,28 @@ body {
 	height: 15em;
 }
 
-.icons {
+.links ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.links ul li {
+	display: inline-block;
+}
+
+.links ul li:after {
+	content: '|';
+}
+
+.links ul li:last-child:after {
+	content: '';
+}
+
+.links ul li a {
+	color: orange;
+}
+
+.fade-in {
 	opacity: 0;
 	animation: appear ease-in;
 	animation-fill-mode: forwards;
